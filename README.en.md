@@ -5,7 +5,7 @@
 [![GitHub license](https://img.shields.io/github/license/Ahua9527/CineAlta-Flip)](https://github.com/Ahua9527/CineAlta-Flip/blob/main/LICENSE)
 ![GitHub stars](https://img.shields.io/github/stars/Ahua9527/CineAlta-Flip)
 
-🎬 A Web Tool for Extracting Image Flip Metadata from Sony CineAlta Cameras
+🎬 CineAlta's Missing Flip? We Capture It.
 
 English · [简体中文](./README.md) · [Live Demo](https://cinealta-flip.ahua.space)
 

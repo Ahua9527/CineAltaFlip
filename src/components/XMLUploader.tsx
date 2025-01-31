@@ -2,7 +2,7 @@ import { useState, useRef } from 'react';
 import { Upload, FileText, X, Github } from 'lucide-react';
 import { processMediaProXML } from '../utils/flip';
 
-const DoubleLoveUploader = () => {
+const XMLUploader = () => {
   const [files, setFiles] = useState<File[]>([]);
   const [isDragging, setIsDragging] = useState(false);
   const [processing, setProcessing] = useState(false);
@@ -101,9 +101,13 @@ const DoubleLoveUploader = () => {
     <div className="min-h-screen flex flex-col bg-light-bg dark:bg-dark-bg transition-all duration-500 ease-in-out">
       <main className="flex-grow flex items-center justify-center p-6 pb-32 bg-light-bg dark:bg-dark-bg">
         <div className="w-full max-w-2xl bg-light-card dark:bg-dark-card rounded-2xl shadow-xl p-10 min-h-[400px] transition-all duration-500 ease-in-out">
-          <h1 className="text-3xl font-chalkboard font-bold text-gray-900 dark:text-white mt-8 mb-12 text-center tracking-wide transition-colors duration-500 ease-in-out">
-            CineAlta<span className="text-selected">-</span>Flip
+          <h1 className="text-4xl font-chalkboard font-bold text-gray-900 dark:text-white mt-8 mb-2 text-center tracking-wide transition-colors duration-500 ease-in-out [filter:drop-shadow(2px_4px_6px_rgba(0,0,0,0.3))]">
+            CineAlta<span className="text-venice">Flip</span> 
           </h1>
+
+          <p className="text-sm text-gray-600 dark:text-gray-400 mb-12 text-center">
+          一拖一拽之间，翻转立现眼前
+          </p>
 
           <div className="space-y-6">
             {/* 文件上传区域 */}
@@ -134,11 +138,11 @@ const DoubleLoveUploader = () => {
                 <div className="text-center">
                   <Upload className="mx-auto h-12 w-12 text-gray-400 dark:text-gray-500" />
                   <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">
-                    支持拖放或点击上传，最多99个文件
+                    支持拖放或点击上传
                   </p>
-                  <p className="mt-1 text-sm text-blue-500 hover:text-blue-500">
+                  {/* <p className="mt-1 text-sm text-blue-500 hover:text-blue-500">
                     点击或拖拽文件到此处
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>
@@ -240,4 +244,4 @@ const DoubleLoveUploader = () => {
   );
 };
 
-export default DoubleLoveUploader;
+export default XMLUploader;
