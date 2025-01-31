@@ -24,6 +24,30 @@ CineAlta Flip 是一个专门用于解决索尼 CineAlta 摄影机图像翻转�
 - 📊 自动生成详细的 CSV 报表
 - 🔄 支持拖放上传文件
 
+## 🚀 开始使用
+
+### 在线使用
+
+访问 [CineAlta Flip](https://cinealta-flip.ahua.space) 即可开始使用。
+
+### 📖 使用说明
+
+1. 打开网页应用
+2. 将 XML 文件拖放到上传区域，或点击选择文件
+3. 可以一次性上传多个 XML 文件（最多 99 个）
+4. 点击"处理文件"按钮
+5. 等待处理完成，CSV 文件会自动下载
+6. CSV 文件包含以下信息：
+   - 片段名称 (Clip Name)
+   - 翻转状态 (Flip)
+   - 时长 (Duration)
+   - 项目帧率 (FPS)
+   - 宽高比 (Aspect Ratio)
+   - 像素宽高比 (Pixel Aspect)
+   - 视频类型 (Video Type)
+   - 音频类型 (Audio Type)
+   - 音频通道 (Audio Channels)
+   - 状态 (Status)
 
 ## 🛠️ 技术栈
 
@@ -32,12 +56,6 @@ CineAlta Flip 是一个专门用于解决索尼 CineAlta 摄影机图像翻转�
 - Tailwind CSS
 - PWA
 - File API
-
-## 🚀 开始使用
-
-### 在线使用
-
-访问 [CineAlta Flip](https://cinealta-flip.ahua.space) 即可开始使用。
 
 ### 本地开发
 
@@ -61,25 +79,6 @@ npm dev
 ```bash
 npm build
 ```
-
-## 📖 使用说明
-
-1. 打开网页应用
-2. 将 XML 文件拖放到上传区域，或点击选择文件
-3. 可以一次性上传多个 XML 文件（最多 99 个）
-4. 点击"处理文件"按钮
-5. 等待处理完成，CSV 文件会自动下载
-6. CSV 文件包含以下信息：
-   - 片段名称 (Clip Name)
-   - 翻转状态 (Flip)
-   - 时长 (Duration)
-   - 帧率 (FPS)
-   - 宽高比 (Aspect Ratio)
-   - 像素宽高比 (Pixel Aspect)
-   - 视频类型 (Video Type)
-   - 音频类型 (Audio Type)
-   - 音频通道 (Audio Channels)
-   - 状态 (Status)
 
 ## 📄 许可证
 
