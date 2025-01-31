@@ -13,7 +13,7 @@ export default defineConfig({
       manifest: {
         name: 'CineAlta Flip',
         short_name: 'CineAlta Flip',
-        description: 'A tool for processing XML files with love',
+        description: '一拖一拽之间，翻转立现眼前',
         theme_color: '#171717',
         background_color: '#171717',
         display: 'standalone',
