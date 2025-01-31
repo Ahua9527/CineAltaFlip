@@ -5,7 +5,7 @@
 [![GitHub license](https://img.shields.io/github/license/Ahua9527/CineAlta-Flip)](https://github.com/Ahua9527/CineAlta-Flip/blob/main/LICENSE)
 ![GitHub stars](https://img.shields.io/github/stars/Ahua9527/CineAlta-Flip)
 
-🎬 一款用于提取索尼 CineAlta 摄影机图像翻转元数据的 Web 工具
+🎬 一拖一拽之间，翻转立现眼前
 
 [English](./README.en.md) · 简体中文 · [在线体验](https://cinealta-flip.ahua.space)
 

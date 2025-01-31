@@ -12,7 +12,7 @@ export default {
       },
       colors: {
         selected: '#3366FF',
-        premiere: '#9999FF',
+        venice: '#FF8B00',
         light: {
           'bg': '#F1F1F1',
           'card': '#F9F9F9',
