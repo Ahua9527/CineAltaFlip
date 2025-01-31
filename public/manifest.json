@@ -1,7 +1,7 @@
 {
     "name": "CineAlta Flip",
     "short_name": "CineAlta Flip",
-    "description": "Automating Sony CineAlta Image Orientation Workflows",
+    "description": "一拖一拽之间，翻转立现眼前",
     "start_url": "/",
     "display": "standalone",
     "display_override": ["window-controls-overlay"],
