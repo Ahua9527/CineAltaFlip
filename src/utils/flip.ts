@@ -48,8 +48,10 @@ export const processMediaProXML = async (file: File): Promise<void> => {
       }
     });
 
-    // 生成 CSV 内容
-    const csvRows = [
+      // 生成 CSV 内容
+      const csvRows = [
+        // 生成器信息
+        '# Generator: 哆啦Ahua 🌱  https://cinealtaflip.ahua.space',
       // CSV 头部信息
       '# Media Information',
       `# Media Name: ${mediaName}`,
@@ -100,7 +102,7 @@ export const processMediaProXML = async (file: File): Promise<void> => {
     const url = URL.createObjectURL(blob);
     const link = document.createElement('a');
     link.href = url;
-    link.download = `${mediaName}_CineAlta-Flip.csv`;
+    link.download = `${mediaName}_CineAltaFlip.csv`;
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
