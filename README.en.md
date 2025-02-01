@@ -1,19 +1,19 @@
-# CineAlta Flip
+# CineAltaFlip
 
 <div align="center">
 
-[![GitHub license](https://img.shields.io/github/license/Ahua9527/CineAlta-Flip)](https://github.com/Ahua9527/CineAlta-Flip/blob/main/LICENSE)
-![GitHub stars](https://img.shields.io/github/stars/Ahua9527/CineAlta-Flip)
+[![GitHub license](https://img.shields.io/github/license/Ahua9527/CineAltaFlip)](https://github.com/Ahua9527/CineAltaFlip/blob/main/LICENSE)
+![GitHub stars](https://img.shields.io/github/stars/Ahua9527/CineAltaFlip)
 
 🎬 CineAlta's Missing Flip? We Capture It.
 
-English · [简体中文](./README.md) · [Live Demo](https://cinealta-flip.ahua.space)
+English · [简体中文](./README.md) · [Live Demo](https://cinealtaflip.ahua.space)
 
 </div>
 
 ## 📝 About
 
-CineAlta Flip is a specialized web tool designed to address the image flip metadata management issue in Sony CineAlta cameras. While CineAlta cameras support image flipping functionality, this information is not embedded as metadata within the media files but is stored separately in XML files. This tool helps users extract flip metadata from these XML files and generates easy-to-use CSV reports.
+CineAltaFlip is a specialized web tool designed to address the image flip metadata management issue in Sony CineAlta cameras. While CineAlta cameras support image flipping functionality, this information is not embedded as metadata within the media files but is stored separately in XML files. This tool helps users extract flip metadata from these XML files and generates easy-to-use CSV reports.
 
 ## ✨ Features
 
@@ -28,7 +28,7 @@ CineAlta Flip is a specialized web tool designed to address the image flip metad
 
 ### Online Usage
 
-Visit [CineAlta Flip](https://cinealta-flip.ahua.space) to start using the tool immediately.
+Visit [CineAltaFlip](https://cinealtaflip.ahua.space) to start using the tool immediately.
 
 ### 📖 Usage Guide
 
@@ -61,8 +61,8 @@ Visit [CineAlta Flip](https://cinealta-flip.ahua.space) to start using the tool 
 
 1. Clone the repository
 ```bash
-git clone https://github.com/Ahua9527/CineAlta-Flip.git
-cd CineAlta-Flip
+git clone https://github.com/Ahua9527/CineAltaFlip.git
+cd CineAltaFlip
 ```
 
 2. Install dependencies
