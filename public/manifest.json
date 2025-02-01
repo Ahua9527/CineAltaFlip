@@ -1,29 +1,56 @@
 {
-    "name": "CineAlta Flip",
-    "short_name": "CineAlta Flip",
-    "description": "一拖一拽之间，翻转立现眼前",
-    "start_url": "/",
-    "display": "standalone",
-    "display_override": ["window-controls-overlay"],
-    "background_color": "#F1F1F1",
-    "theme_color": "#3366FF",
-    "icons": [
-      {
-        "src": "favicon-96x96.png",
-        "sizes": "96x96",
-        "type": "image/png"
-      },
-      {
-        "src": "pwa-192x192.png",
-        "sizes": "192x192",
-        "type": "image/png",
-        "purpose": "any"
-      },
-      {
-        "src": "pwa-512x512.png",
-        "sizes": "512x512",
-        "type": "image/png",
-        "purpose": "any"
-      }
-    ]
-  }
+  "id": "/?source=pwa",
+  "name": "CineAltaFlip",
+  "short_name": "CineAltaFlip",
+  "description": "一拖一拽之间，翻转立现眼前",
+  "start_url": "/?source=pwa",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay"],
+  "orientation": "any",
+  "scope": "/",
+  "background_color": "#F1F1F1",
+  "theme_color": "#F1F1F1",
+  "icons": [
+    {
+      "src": "apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "CineAltaFlip_96_any.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "CineAltaFlip_192_any.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "CineAltaFlip_512_any.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "CineAltaFlip_96_maskable.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "CineAltaFlip_192_maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "CineAltaFlip_512_maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
