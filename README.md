@@ -1,19 +1,19 @@
-# CineAlta Flip
+# CineAltaFlip
 
 <div align="center">
 
-[![GitHub license](https://img.shields.io/github/license/Ahua9527/CineAlta-Flip)](https://github.com/Ahua9527/CineAlta-Flip/blob/main/LICENSE)
-![GitHub stars](https://img.shields.io/github/stars/Ahua9527/CineAlta-Flip)
+[![GitHub license](https://img.shields.io/github/license/Ahua9527/CineAltaFlip)](https://github.com/Ahua9527/CineAltaFlip/blob/main/LICENSE)
+![GitHub stars](https://img.shields.io/github/stars/Ahua9527/CineAltaFlip)
 
 🎬 一拖一拽之间，翻转立现眼前
 
-[English](./README.en.md) · 简体中文 · [在线体验](https://cinealta-flip.ahua.space)
+[English](./README.en.md) · 简体中文 · [在线体验](https://cinealtaflip.ahua.space)
 
 </div>
 
 ## 📝 项目介绍
 
-CineAlta Flip 是一个专门用于解决索尼 CineAlta 摄影机图像翻转元数据管理问题的 Web 工具。虽然 CineAlta 摄影机支持图像翻转功能，但翻转信息并不会作为元数据内嵌到媒体文件中，而是单独保存在 XML 文件中。本工具可以帮助用户从这些 XML 文件中提取翻转元数据，并生成易于使用的 CSV 格式报表。
+CineAltaFlip 是一个专门用于解决索尼 CineAlta 摄影机图像翻转元数据管理问题的 Web 工具。虽然 CineAlta 摄影机支持图像翻转功能，但翻转信息并不会作为元数据内嵌到媒体文件中，而是单独保存在 XML 文件中。本工具可以帮助用户从这些 XML 文件中提取翻转元数据，并生成易于使用的 CSV 格式报表。
 
 ## ✨ 特性
 
@@ -28,7 +28,7 @@ CineAlta Flip 是一个专门用于解决索尼 CineAlta 摄影机图像翻转�
 
 ### 在线使用
 
-访问 [CineAlta Flip](https://cinealta-flip.ahua.space) 即可开始使用。
+访问 [CineAltaFlip](https://cinealtaflip.ahua.space) 即可开始使用。
 
 ### 📖 使用说明
 
@@ -61,8 +61,8 @@ CineAlta Flip 是一个专门用于解决索尼 CineAlta 摄影机图像翻转�
 
 1. 克隆项目
 ```bash
-git clone https://github.com/Ahua9527/CineAlta-Flip.git
-cd CineAlta-Flip
+git clone https://github.com/Ahua9527/CineAltaFlip.git
+cd CineAltaFlip
 ```
 
 2. 安装依赖

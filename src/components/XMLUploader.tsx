@@ -223,7 +223,7 @@ const XMLUploader = () => {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-center space-x-6">
             <a
-              href="https://github.com/Ahua9527/CineAlta-Flip"
+              href="https://github.com/Ahua9527/CineAltaFlip"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center space-x-2 text-gray-600 dark:text-gray-300 hover:text-selected"
@@ -233,7 +233,7 @@ const XMLUploader = () => {
             </a>
           </div>
           <p className="mt-2 text-xs text-center text-gray-500 dark:text-gray-400">
-            CineAlta Flip © 2025 | Designed & Developed by 哆啦Ahua🌱
+            CineAltaFlip © 2025 | Designed & Developed by 哆啦Ahua🌱
           </p>
         </div>
       </footer>
