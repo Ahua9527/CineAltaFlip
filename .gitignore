@@ -23,6 +23,8 @@ dist
 
 # misc
 .DS_Store
+.vscode
+.idea
 
 # debug
 npm-debug.log*
