@@ -1,42 +1,51 @@
+/* 根容器样式 */
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  max-width: 1280px;     /* 设置最大宽度，防止在大屏幕上过宽 */
+  margin: 0 auto;        /* 水平居中 */
+  padding: 2rem;         /* 给容器添加内边距 */
+  text-align: center;    /* 内容居中对齐 */
 }
 
+/* 徽标样式 */
 .logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 500ms;
+  height: 6em;           /* 设置徽标高度 */
+  padding: 1.5em;        /* 添加内边距 */
+  will-change: filter;   /* 性能优化，提示浏览器该元素的 filter 属性将会变化 */
+  transition: filter 500ms;  /* 设置 filter 属性的过渡效果，持续 500 毫秒 */
 }
+/* 徽标悬停效果 */
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 2em #646cffaa);  /* 鼠标悬停时添加紫色阴影效果 */
 }
+/* React 徽标特有的悬停效果 */
 .logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  filter: drop-shadow(0 0 2em #61dafbaa);  /* 为 React 徽标添加特殊的蓝色阴影效果 */
 }
 
+/* 徽标旋转动画关键帧定义 */
 @keyframes logo-spin {
   from {
-    transform: rotate(0deg);
+    transform: rotate(0deg);  /* 动画起始位置：无旋转 */
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(360deg);  /* 动画结束位置：旋转一周（360度） */
   }
 }
 
+/* 响应式动画设置 */
 @media (prefers-reduced-motion: no-preference) {
+  /* 只在用户没有设置减少动画的情况下应用动画 */
   a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+    animation: logo-spin infinite 20s linear;  /* 应用旋转动画，无限循环，持续20秒，线性变化 */
   }
 }
 
+/* 卡片组件样式 */
 .card {
-  padding: 2em;
+  padding: 2em;  /* 设置卡片内边距 */
 }
 
+/* 文档链接文本样式 */
 .read-the-docs {
-  color: #888;
+  color: #888;  /* 设置文本颜色为浅灰色 */
 }
